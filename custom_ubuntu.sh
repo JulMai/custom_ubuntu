@@ -22,3 +22,7 @@ gsettings set org.gnome.Terminal.Legacy.Keybindings:/org/gnome/terminal/legacy/k
 gsettings set org.gnome.desktop.interface monospace-font-name 'Ubuntu Mono 15'
 
 sudo apt install curl vim -y
+
+# Bash Customization
+cat ./.bashrc.add >> ~/.bashrc
+
